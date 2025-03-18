@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="photodump.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo">MP</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Skills/skills-hobbies.html">Skills, Hobbies & Interests</a></li>
+                <li><a href="../Resume/resume.html"><b>Resume</b></a></li>
+                <li><a href="../photodump/photodump.html">Photo Gallery</a></li>
+                <li class="dropdown">
+                    <a href="#">More ▾</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../music/music.html">My Beat </a>
+                        <li><a href="../movies/movies.html">My Kind of Film</a></li>
+                        <li><a href="../tvshow/tvshow.html">My Kind of TV Show</a></li>
+                        
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="gallery-title">My Photo Gallery</h1>
+
+    <hr class="hr-separator">
+
+    <div class="gallery-container" id="dump">
+
+        <div class="family-section" id="Family">
+            <h2 class="section-header">My Family</h2>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <a href="#lightbox1">
+                        <img src="family/sg.jpg" alt="Singapore Photo">
+                        <div class="overlay">Singapore Trip</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox2">
+                        <img src="family/malaysia.jpg" alt="Malaysia Photo">
+                        <div class="overlay">Malaysia Trip</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox3">
+                        <img src="family/bicol.jpg" alt="Bicol Photo">
+                        <div class="overlay">Bicol Trip</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox4">
+                        <img src="family/christmas2025.jpg" alt="Christmas 2024">
+                        <div class="overlay">Christmas Celebration '24</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox5">
+                        <img src="family/quezonbaguio.jpg" alt="Quezon x Baguio Trip">
+                        <div class="overlay">Quezon x Baguio</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr-separator">
+
+        <div class="friends-section">
+            <h2 class="section-header">My Friends</h2>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <a href="#lightbox6">
+                        <img src="Friends/TPNJ.jpg" alt="TPNJ Photo">
+                        <div class="overlay">TPNJ Photo</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox7">
+                        <img src="Friends/TNJN.jpg" alt="TNJN Photo">
+                        <div class="overlay">TNJ/n Photo</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox8">
+                        <img src="Friends/walwalers.jpg" alt="Walwalers Photo">
+                        <div class="overlay">Walwalers Photo</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox9">
+                        <img src="Friends/TNJ Main.jpg" alt="TNJ Photo">
+                        <div class="overlay">Main Gang</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox10">
+                        <img src="Friends/HASOP.jpg" alt="College Friends">
+                        <div class="overlay">College Friends</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr-separator">
+
+        <div class="fav-person-section">
+            <h2 class="section-header">My Favorite Person</h2>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <a href="#lightbox11">
+                        <img src="favperson/fav1.jpg" alt="Sponty Baguio">
+                        <div class="overlay">Sponty Baguio Trip</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox12">
+                        <img src="favperson/fav2.jpg" alt="First Meet Photo">
+                        <div class="overlay">First Meet w/Fam</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox13">
+                        <img src="favperson/fav3.jpg" alt="Hawker Chan Photo">
+                        <div class="overlay">42nd Month Celeb</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox14">
+                        <img src="favperson/fav4.jpg" alt="Elyu Trip">
+                        <div class="overlay">La Union Trip</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox15">
+                        <img src="favperson/fav5.jpg" alt="SHS Graduation">
+                        <div class="overlay">SHS Graduation Celeb</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr-separator">
+
+        <div class="me-section">
+            <h2 class="section-header">Me</h2>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <a href="#lightbox16">
+                        <img src="me/me1.jpg" alt="Sg Pic">
+                        <div class="overlay">Singapore</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox17">
+                        <img src="me/me2.jpg" alt="Baguio Pic">
+                        <div class="overlay">Baguio</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox18">
+                        <img src="me/me3.jpg" alt="Grad Ball">
+                        <div class="overlay">Grad Ball</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox19">
+                        <img src="me/me4.jpg" alt="Antipolo">
+                        <div class="overlay">Antipolo</div>
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="#lightbox20">
+                        <img src="me/me5.jpg" alt="Tanay">
+                        <div class="overlay">Tanay</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lightbox1" class="lightbox"><a href="#" class="close">&times;</a>
+        <img src="family/sg.jpg"> <a href="#lightbox2" class="next">&#10095;</a>
+    </div> 
+
+    <div id="lightbox2" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox1" class="prev">&#10094;</a> <img src="family/malaysia.jpg">
+        <a href="#lightbox3" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox3" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox2" class="prev">&#10094;</a><img src="family/bicol.jpg">
+        <a href="#lightbox4" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox4" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox3" class="prev">&#10094;</a><img src="family/christmas2025.jpg">
+        <a href="#lightbox5" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox5" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox4" class="prev">&#10094;</a><img src="family/quezonbaguio.jpg">
+        <a href="#lightbox6" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox6" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox5" class="prev">&#10094;</a><img src="Friends/TPNJ.jpg">
+        <a href="#lightbox7" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox7" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox6" class="prev">&#10094;</a><img src="Friends/TNJN.jpg">
+        <a href="#lightbox8" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox8" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox7" class="prev">&#10094;</a><img src="Friends/walwalers.jpg">
+        <a href="#lightbox9" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox9" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox8" class="prev">&#10094;</a><img src="Friends/TNJ Main.jpg">
+        <a href="#lightbox10" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox10" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox9" class="prev">&#10094;</a><img src="Friends/HASOP.jpg">
+        <a href="#lightbox11" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox11" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox10" class="prev">&#10094;</a><img src="favperson/fav1.jpg">
+        <a href="#lightbox12" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox12" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox11" class="prev">&#10094;</a><img src="favperson/fav2.jpg">
+        <a href="#lightbox13" class="next">&#10095;</a>
+    </div>
+    <div id="lightbox13" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox12" class="prev">&#10094;</a><img src="favperson/fav3.jpg">
+        <a href="#lightbox14" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox14" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox13" class="prev">&#10094;</a><img src="favperson/fav4.jpg">
+        <a href="#lightbox15" class="next">&#10095;</a>
+    </div>
+    <div id="lightbox15" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox14" class="prev">&#10094;</a><img src="favperson/fav5.jpg">
+        <a href="#lightbox16" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox16" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox15" class="prev">&#10094;</a><img src="me/me1.jpg">
+        <a href="#lightbox17" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox17" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox16" class="prev">&#10094;</a><img src="me/me2.jpg">
+        <a href="#lightbox18" class="next">&#10095;</a>
+    </div>
+    <div id="lightbox18" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox17" class="prev">&#10094;</a><img src="me/me3.jpg">
+        <a href="#lightbox19" class="next">&#10095;</a>
+    </div>
+    <div id="lightbox19" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox18" class="prev">&#10094;</a><img src="me/me4.jpg">
+        <a href="#lightbox20" class="next">&#10095;</a>
+    </div>
+
+    <div id="lightbox20" class="lightbox"><a href="#" class="close">&times;</a>
+        <a href="#lightbox19" class="prev">&#10094;</a><img src="me/me5.jpg">
+        <a href="#lightbox1" class="next">&#10095;</a>
+    </div>
+
+    <a href="#dump" class="btn-top">Go Top</a>
+</body>
+</html>

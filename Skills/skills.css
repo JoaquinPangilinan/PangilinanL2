@@ -26,10 +26,10 @@ body {
 }
 
 #biotitle {
-    font-size: 28px;
+    font-size: 50px;
     font-weight: bold;
-    margin-top: 10px;
-    font-family: Georgia, serif;
+    font-family: Georgia;
+    margin-bottom: 10px;
 }
 
 nav {
